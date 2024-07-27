@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+#search-bar {
+    width: 80%;
+    padding: 5px;
+    margin: 10px 0;
+}
+#player-controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+button {
+    margin: 0 10px;
+}
+#volume-control, #progress-bar {
+    margin: 0 20px;
+    width: 150px;
+}
+#playlist, #search-results {
+    padding: 20px;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Music Player</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>My Music Player</h1>
+        <input type="text" id="search-bar" placeholder="Search for music...">
+    </header>
+    <main>
+        <div id="player-controls">
+            <button id="prev-btn">Prev</button>
+            <button id="play-pause-btn">Play</button>
+            <button id="next-btn">Next</button>
+            <input type="range" id="volume-control" min="0" max="100" value="50">
+            <input type="range" id="progress-bar" min="0" value="0">
+        </div>
+        <section id="playlist">
+            <h2>Playlist</h2>
+            <ul id="playlist-tracks"></ul>
+        </section>
+        <section id="search-results">
+            <h2>Search Results</h2>
+            <ul id="search-results-list"></ul>
+        </section>
+    </main>
+    <script src="scripts.js"></script>
+</body>
+</html>
